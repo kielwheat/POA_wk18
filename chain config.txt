@@ -1,0 +1,30 @@
+
+Genesis block creation:
+node password 1995
+
+node1:
+Public address of the key:   0xCd44FAf114830915de7722184000231bd5918666
+
+
+node2:
+Public address of the key:   0x8f60c3E1Ad9Dda8048B432dd36a6aa7E747b5ecD
+
+network name:
+zbanktest
+
+network ID: 
+2003
+
+blocktime:
+1 second
+
+Mining block instructions:
+
+enode address:  enode://c1a0caffc09eb252969e9808b87381ce70171ce23f7ca84662f7c0b042e54f6deaba221a23911043ea46b3e1fad1ed546f7d5839a362846193e59f93a66600f3@127.0.0.1:30303
+
+Copy and paste these into separate git bash terminal windows to start the private PoA network mining.  By default, node1 uses port 30303 so node2 needs to be explicitly directed to port 30304 (and so on for any addtional nodes):
+
+    ./geth --datadir node1 --unlock "Cd44FAf114830915de7722184000231bd5918666" --mine --rpc --allow-insecure-unlock
+    ./geth --datadir node2 --unlock "8f60c3E1Ad9Dda8048B432dd36a6aa7E747b5ecD" --mine --port 30304 --bootnodes "enode://c1a0caffc09eb252969e9808b87381ce70171ce23f7ca84662f7c0b042e54f6deaba221a23911043ea46b3e1fad1ed546f7d5839a362846193e59f93a66600f3@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+

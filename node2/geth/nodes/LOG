@@ -1,0 +1,66 @@
+=============== Feb 2, 2021 (PST) ===============
+08:46:23.694841 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:46:23.699828 db@open opening
+08:46:23.704817 version@stat F·[] S·0B[] Sc·[]
+08:46:23.715784 db@janitor F·2 G·0
+08:46:23.715784 db@open done T·15.9556ms
+10:07:23.762526 memdb@flush N·43399 S·3MiB
+10:07:23.814387 memdb@flush created L0@3 N·43399 S·783KiB "loc..seq,v7":"version,v1"
+10:07:23.814387 version@stat F·[1] S·783KiB[783KiB] Sc·[0.25]
+10:07:23.814387 memdb@flush committed F·1 T·51.8611ms
+10:07:23.818381 journal@remove removed @1
+11:06:53.754705 memdb@flush N·41084 S·3MiB
+11:06:53.820533 memdb@flush created L0@5 N·41084 S·710KiB "n:\x00..ing,v82270":"n:\xff..ing,v44785"
+11:06:53.820533 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+11:06:53.821527 memdb@flush committed F·1 T·66.8215ms
+11:06:53.822526 journal@remove removed @2
+11:07:12.184576 table@compaction L0·2 -> L1·0 S·1MiB Q·84695
+11:07:12.306266 table@build created L1@6 N·18584 S·663KiB "loc..seq,v7":"version,v1"
+11:07:12.306266 version@stat F·[0 1] S·663KiB[0B 663KiB] Sc·[0.00 0.01]
+11:07:12.310238 table@compaction committed F-1 S-830KiB Ke·0 D·65899 T·125.6623ms
+11:07:12.311237 table@remove removed @5
+11:07:12.312233 table@remove removed @3
+12:06:23.759761 memdb@flush N·40297 S·3MiB
+12:06:23.812620 memdb@flush created L0@8 N·40297 S·685KiB "n:\x00..ing,v100036":"n:\xff..ing,v110635"
+12:06:23.812620 version@stat F·[1 1] S·1MiB[685KiB 663KiB] Sc·[0.25 0.01]
+12:06:23.820601 memdb@flush committed F·1 T·59.8431ms
+12:06:23.822595 journal@remove removed @4
+12:06:49.538049 table@compaction L0·1 -> L1·1 S·1MiB Q·125073
+12:06:49.601812 table@build created L1@9 N·23771 S·851KiB "loc..seq,v7":"version,v1"
+12:06:49.601812 version@stat F·[0 1] S·851KiB[0B 851KiB] Sc·[0.00 0.01]
+12:06:49.602810 table@compaction committed F-1 S-497KiB Ke·0 D·35110 T·64.7602ms
+12:06:49.638250 table@remove removed @8
+12:06:49.640244 table@remove removed @6
+13:06:23.751662 memdb@flush N·39871 S·3MiB
+13:06:23.801527 memdb@flush created L0@11 N·39871 S·661KiB "n:\x00..ing,v159774":"n:\xff..ong,v131616"
+13:06:23.801527 version@stat F·[1 1] S·1MiB[661KiB 851KiB] Sc·[0.25 0.01]
+13:06:23.802528 memdb@flush committed F·1 T·50.866ms
+13:06:23.803524 journal@remove removed @7
+13:06:53.290064 table@compaction L0·1 -> L1·1 S·1MiB Q·164763
+13:06:53.438663 table@build created L1@12 N·28058 S·1007KiB "loc..seq,v7":"version,v1"
+13:06:53.439659 version@stat F·[0 1] S·1007KiB[0B 1007KiB] Sc·[0.00 0.01]
+13:06:53.441654 table@compaction committed F-1 S-504KiB Ke·0 D·35584 T·151.5908ms
+13:06:53.443648 table@remove removed @11
+13:06:53.443648 table@remove removed @9
+14:04:23.867049 memdb@flush N·39459 S·4MiB
+14:04:24.393645 memdb@flush created L0@14 N·39459 S·646KiB "n:\x00..ing,v194037":"n:\xff..ong,v178731"
+14:04:24.394640 version@stat F·[1 1] S·1MiB[646KiB 1007KiB] Sc·[0.25 0.01]
+14:04:24.401621 memdb@flush committed F·1 T·533.5764ms
+14:04:24.417579 journal@remove removed @10
+14:04:54.803468 table@compaction L0·1 -> L1·1 S·1MiB Q·204482
+14:04:55.093693 table@build created L1@15 N·31783 S·1MiB "loc..seq,v7":"version,v1"
+14:04:55.094694 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+14:04:55.135582 table@compaction committed F-1 S-507KiB Ke·0 D·35734 T·331.1127ms
+14:04:55.174482 table@remove removed @14
+14:04:55.177468 table@remove removed @12
+15:03:53.874484 memdb@flush N·39308 S·3MiB
+15:03:53.992173 memdb@flush created L0@17 N·39308 S·645KiB "n:\x00..ing,v218051":"n:\xff..ong,v208771"
+15:03:54.006158 version@stat F·[1 1] S·1MiB[645KiB 1MiB] Sc·[0.25 0.01]
+15:03:54.022088 memdb@flush committed F·1 T·147.6045ms
+15:03:54.024082 journal@remove removed @13
+15:04:12.093381 table@compaction L0·1 -> L1·1 S·1MiB Q·243591
+15:04:12.248957 table@build created L1@18 N·35258 S·1MiB "loc..seq,v7":"version,v1"
+15:04:12.248957 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+15:04:12.249954 table@compaction committed F-1 S-517KiB Ke·0 D·35833 T·156.573ms
+15:04:12.253948 table@remove removed @17
+15:04:12.255939 table@remove removed @15
