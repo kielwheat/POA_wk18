@@ -1,4 +1,4 @@
-# POA_wk18
+# POA zbanktest
 
 This repo contains instructions for launching the zbanktest blockchain network.  There is a screenshot folder that will help guide users in the setup.
 
